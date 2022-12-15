@@ -17,7 +17,7 @@ use App\Http\Controllers\LoginController;
 */
 
 Route::get('/', function () {
-    return view('backend.index');
+    return view('login');
 });
 Route::get('/backend', function () {
     return view('backend.index');
